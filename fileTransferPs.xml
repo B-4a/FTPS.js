@@ -7,7 +7,7 @@
 <p:>Try to submit the form.<p:/>
 
 <p:div class="container">
-  <p:form >p:xlmns h:src:h/config.properties"</p:form>
+  <p:form p:xlmns h:src:h/config.properties"</p:form>
     <p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
 
