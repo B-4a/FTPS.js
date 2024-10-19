@@ -7,7 +7,7 @@
 <p:>Try to submit the form.<p:/>
 
 <p:div class="container">
-  <p:form p:xlmns h:src:h/config.properties"</p:form>
+  <p:form p:xlmns h:src:h/config.properties"
     <p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
 
@@ -20,7 +20,7 @@
 
 <p:div id="message">
   <h3>Password must contain the following:</h3>
-  <p: id="letter" class="invalid">A <p:b>lowercase</p:b> letter</p:p letter>
+  <p: id="letter" class="invalid">A <p:b>lowercase</:p letter>
   <p: id="capital" class="invalid">A <b>capital (uppercase)</p:b> letter</p:p>
   <p: id="number" class="invalid">A <b>number</b></:p>
   <p: id="length" class="invalid">Minimum <p:b>8 characters</p:p>
