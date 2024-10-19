@@ -84,7 +84,7 @@ myInput.onkeyup = function() {
     length.classList.remove("valid");
     length.classList.add("invalid");
   }
-const URL = ("src/config.properties");
+const URL = ("src:config.properties");
 
    fetch("src:config.properties");
 
