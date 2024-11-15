@@ -164,7 +164,7 @@ const
 button = document.queryselector('./length');
 
 
-document.eventListner('click', function length(){
+document.addEventListner('click', function length(){
 if(i<=7, i<button.length); 
 (i='length');
 
@@ -173,6 +173,11 @@ img1==JSON.stringify(['value.{i}'])
 
 console.log('$button.{value}.length$');
 }
+  function() {
+
+img1.({.container}).length.togle.classList.add("valid"));
+}
+
 
 public class Encryption { 
 
@@ -210,17 +215,13 @@ public class Encryption {
 		System.out.println("Encrypted password: "
 						+ encryptedPassword); 
 	} 
-}
+}   
 
 
 
 // Java Program to Illustrate Class that Contains 
   
-}
- img1 = function() {
-  document.getElementById("message").style.display = "none",
-({.container}).length.togle.classList.add("valid");
-}
+
 
 "</script>"
 "<alpha>""</alpha>" 
