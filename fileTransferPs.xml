@@ -177,6 +177,7 @@ console.log('$button.{value}.length$');
 
 img1.({.container}).length.togle.classList.add("valid"));
 }
+console.log(img1);
 
 
 public class Encryption { 
@@ -215,11 +216,7 @@ public class Encryption {
 		System.out.println("Encrypted password: "
 						+ encryptedPassword); 
 	} 
-}   
-
-
-
-// Java Program to Illustrate Class that Contains 
+} 
   
 
 
