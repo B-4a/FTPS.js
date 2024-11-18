@@ -2,8 +2,8 @@
 			<?standalone = "yes"/>
 			<p:Company>
 			
-<h3>Password Validation</h3>
-<p:>Try to submit the form.
+
+<p:Try to submit the form.
 "<style>"
 /* Style all input fields */
 input {
@@ -28,7 +28,7 @@ input[type=submit] {
 }
 
 /* Style the container for inputs */
-.container {
+p:div.container {
   background-color: #f1f1f1;
   padding: 20px;
   border: 1px solid #ccc;
@@ -77,7 +77,7 @@ input[type=submit] {
 "</style>"
 <p:/>
 
-<p:div class="container">
+<p:div class="container"
   <p:form p:xlmns h:src:h/config.properties"
     <%- p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
@@ -87,7 +87,7 @@ input[type=submit] {
     
     <p:input type="submit" value="Submit" %>
   </p:form>
-</p:div>
+/p:div>
 
 <p:div id="message">
   <h3>Password must contain the following:</h3>
