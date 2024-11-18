@@ -4,7 +4,7 @@
 			
 <h3>Password Validation</h3>
 <p:>Try to submit the form.
-"<style"
+"<style>"
 /* Style all input fields */
 input {
   width: 100%;
@@ -74,7 +74,7 @@ input[type=submit] {
   left: -35px;
   content: "✖";
 }
-"/style>"
+"</style>"
 <p:/>
 
 <p:div class="container">
