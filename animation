@@ -1,5 +1,17 @@
 			<?xml version="1.0" encoding="utf-16"?>
 			<?standalone = "yes"/>
+<sch:rule context="switch/*">
+    <sch:assert test=". = //@id">
+        <sch:name/> should reference an element that has a matching "id" attribute.
+    </sch:assert>
+</sch:rule>
+<switch> name="SW-01" type="NORMAL">
+    <in-left>I_SW-01R</in-left>
+    <out-left>O_SW-01R</out_left>
+    <in-right>I_SW-01N</in-right>
+    <out-right>O_SW-01N</out-right>
+</switch>
+
 	
 			
 
