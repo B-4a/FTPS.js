@@ -3,38 +3,29 @@
 			<p:Company			
 <h3>Password Validation</h3>
 <p:Try to submit the form.
-"<style>"
+<style>
 /* Style all input fields */
 input {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid silver;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+  border-color: yellow;
 }
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  background-color:gray;
+  color:yellow;
 }
 
 /* Style the container for inputs */
-p:div.container {
-  background-color: #f1f1f1;
+.container {
+  background-color:yellow;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
 }
 
 /* The message box is shown when the user clicks on the password field */
@@ -73,7 +64,7 @@ p:div.container {
   left: -35px;
   content: "✖";
 }
-"</style>"
+</style>
 <p:/>
 
 <p:div class="container">
@@ -97,7 +88,7 @@ p:div.container {
 </p:div>
 
 
-"<script>"
+<script>
 var myInput = document.getElementById("psw");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
@@ -229,7 +220,7 @@ public class Encryption {
   
 
 
-"</script>"
+</script>
 "<alpha>""</alpha>" 
 "<scale xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
