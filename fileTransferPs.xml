@@ -216,7 +216,7 @@ public class Encryption {
 		System.out.println("Encrypted password: "
 						+ encryptedPassword); 
 	} 
-	console.log(String.getValue([]);
+	console.log(String.getValue([]));
 } 
   
 
