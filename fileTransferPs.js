@@ -1,3 +1,4 @@
+fetch('https://github.com/B-4a/FTPS.js.git');
 
 var myInput = document.getElementById("psw");
 var letter = document.getElementById("letter");
