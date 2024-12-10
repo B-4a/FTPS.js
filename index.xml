@@ -88,9 +88,14 @@ p:div.container {
     
     <p:input type="submit" value="Submit" %>
 
-  "<xhtml:script xmlns:xhtml=("./img001.jpg")
+  "<xhtml:script xmlns:xhtml=('./client')
                 src="client.js"
-                type="application/javascript"/>"</p:form>
+                type="application/javascript"/>"
+"<xhtml:script xmlns:xhtml=("./"<xhtml:script xmlns:xhtml=("./fileTransferPs.js")
+                src="fileTransferPs.js"
+                type="application/javascript"/>"")
+               
+</p:form>
 /p:div>
 
 <p:div id="message">
