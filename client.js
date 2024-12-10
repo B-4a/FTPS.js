@@ -1,4 +1,4 @@
-document.addQuerySelector();
+document.addQuerySelector('./img001.jpg');
 const pixels = new int[4*x*y];
 
 pixels[0] = xRed (Iterations ++ function (Red){1.0f,0.0f,0.2f};
