@@ -1,14 +1,14 @@
 			<--?xml version="1.0" encoding="utf-16"?>
 			<?standalone = "yes"/>
+			<? xml-stylesheet href="my-style">"
 
 	
 			
 
-<p:Try to submit the form.
-"<? xml-stylesheet href="my-style">" p:/>
 
 <p:div class="container"
-  <p:form p:xlmns h:src:h/config.properties"
+  
+<p:form p:xlmns h:src:h/config.properties"
     <%- p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
 
