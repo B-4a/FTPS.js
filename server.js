@@ -1,6 +1,6 @@
 `use strict`
 //frontend javascript to display the image object json string into a browser
-    const URL = ""https://github.com/B-4a/b-4a1
+    const URL = ('https://github.com/B-4a/FTPS.js.git');
 
    fetch( URL )
 
@@ -63,8 +63,8 @@ app.use(function(req,res){
 
 //send to localhost:3000 because every app does a GET request at a beginning of every session 
 
-const PORT = process.env.PORT || 3000;
+const PORT = ('https://github.com/B-4a/FTPS.js.git');
 
 app.listen(PORT, function() {
-  console.log(`Example app listening at http://localhost:${https://github.com/B-4a/b-4a1}`);
+  console.log(`Example app listening at http://localhost:${'https://github.com/B-4a/FTPS.js.git'}`);
 });
