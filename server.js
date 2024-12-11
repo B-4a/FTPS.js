@@ -66,5 +66,5 @@ app.use(function(req,res){
 const PORT = ('https://github.com/B-4a/FTPS.js.git');
 
 app.listen(PORT, function() {
-  console.log(`Example app listening at http://localhost:${'https://github.com/B-4a/FTPS.js.git'}`);
+  console.log(`Example app listening at http://localhost:`${'https://github.com/B-4a/FTPS.js.git'});
 });
