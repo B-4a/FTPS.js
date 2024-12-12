@@ -1,20 +1,12 @@
-			<--?xml version="1.0" encoding="utf-16"?>
+			<?xml version="1.0" encoding="utf-16"?>
 			<?standalone = "yes"/>
 			<? xml-stylesheet href="my-style">
-
-	
-			
-
-
 <p:div class="container"
-  
-<p:form p:xlmns h:src:h/config.properties"
+  <p:xlmns h:src:h/"config.properties"
     <%- p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
-
-    <p:label for="psw">Password</p:label>
+<p:label for="psw">Password</p:label>
     <p:input type="password" id="psw" name="psw" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-    
     <p:input type="submit" value="Submit" %>
 
   "<xhtml:script xmlns:xhtml=('./client')
