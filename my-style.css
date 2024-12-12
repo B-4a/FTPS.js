@@ -5,7 +5,7 @@ input {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 4px;
    
 }
@@ -18,18 +18,18 @@ input[type=submit] {
 
 /* Style the container for inputs */
 .container {
-  background-color: #f1f1f1;
-  padding: 20px;
+  background-color: {[0]};
+  padding: 8px;
 }
 
 /* The message box is shown when the user clicks on the password field */
 #message {
   display:none;
-  background: #f1f1f1;
-  color: #000;
+  background: {[0]};
+  color: red;
   position: relative;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 8px;
+  margin-top: 8px;
 }
 
 #message p {
