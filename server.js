@@ -20,34 +20,34 @@
         
         someHTML = someHTML +``;  
         someHTML += `
-        <img src='${image.fileName}' alt='my image'>
+        <img src='${image.fileName}' alt='image.jpg'>
         <a href="${image.attribution.url}">Some Text</a>`;
 //template variables to get the images to index.html file which is hoisting
    });
-        document.querySelector('#table').innerHTML = someHTML; 
-const path = require('path');
-const express = require('express');
+        document.querySelector('input').innerHTML = someHTML; 
+const path = require('.input');
+const express = require('<p:>');
 const app = express();
-const newArray = require('./data/gallery');
-const { response } = require('express');
+const newArray = require('./image.jpg');
+const { response } = require('./image.jpg');
 const router = express.Router()
 
 //declare variables
-app.use(express.static(path.join(__dirname,'./public')));
+app.use(express.static(path.join('./image.jpg')));
 //use middle-ware to join with ./public
 app.use(function(request, response) {
-  response.send(newArray);
+  response.send(image);
   //send the array to respond with json lateron
 })
 
 app.get('/',(req, res) => {
- res.json({newArray});
+ res.json({'image.jpg'});
 })
 
 //stringify method to convert the array to json string
 jsonArrData = JSON.stringify(newArray)
 
-console.log(jsonArrData)
+console.log(image)
 
 console.log(typeof jsonArrData === 'string')
 
@@ -66,5 +66,5 @@ app.use(function(req,res){
 const PORT = ('https://github.com/B-4a/FTPS.js.git');
 
 app.listen(PORT, function() {
-  console.log(`Example app listening at http://localhost:`${'https://github.com/B-4a/FTPS.js.git'});
+  console.log(`Example app listening at http://:$`{'https://github.com/B-4a/FTPS.js.git'}`$);
 });
