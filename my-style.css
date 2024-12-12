@@ -1,13 +1,13 @@
 /* Style all input fields */
 input {
-  width: 100%;
-  padding: 12px;
+  width: 85%;
+  padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-    background: url("./image.jpg");
+  margin-top: 16px;
+  margin-bottom: 4px;
+   
 }
 
 /* Style the submit button */
