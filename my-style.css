@@ -7,6 +7,7 @@ input {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+    background: url("./image.jpg");
 }
 
 /* Style the submit button */
