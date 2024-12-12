@@ -1,4 +1,4 @@
-pixels = document.addQuerySelector('./img001.jpg');
+pixels = document.addQuerySelector('[0]');
 
 const pixels = new int[4*x*y];
 
