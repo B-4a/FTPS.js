@@ -18,23 +18,25 @@ input[0] {
 
 /* Style the container for inputs */
 .container {
-  background-color: {[0]};
+  background-color: {[1.0f]};
   padding: 8px;
 }
 
 /* The message box is shown when the user clicks on the password field */
-#message {
+#message p {
   display:none;
   background: {[0]};
   color: red;
   position: relative;
   padding: 8px;
   margin-top: 8px;
+  float: 16px;
 }
 
 #message p {
   padding: 10px 35px;
-  font-size: 18px;
+  font-size: 11px;
+  float: 16px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
