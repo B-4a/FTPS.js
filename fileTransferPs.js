@@ -70,9 +70,9 @@ const URL = ("src:config.properties");
          console.log(data);
       });
 const 
-img1 = document.queryselector('./submit');
+img1 = document.queryselector('#message');
 const
-button = document.queryselector('./length');
+button = document.queryselector('.length');
 
 
 document.addEventListner('click', function length(){
@@ -101,10 +101,10 @@ public class Encryption {
 		FileInputStream fileInputStream 
 			= new FileInputStream("src:config.properties"); 
 		properties.load(fileInputStream); 
-		String password 
+		String psw 
 			= properties.getProperty("Password"); 
 
-		if (password == null) { 
+		if (psw == null) { 
 			throw new IllegalArgumentException( 
 				"Parameter is not present in configuration file"); 
 		} 
