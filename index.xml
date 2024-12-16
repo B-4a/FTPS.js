@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
-"<xml-stylesheet href="my-style.css"/>"
 <p:div class="container"
   <p:xlmns h:src:h/"config.properties"
     <%- p:label for="usrname">Username</P:label>
@@ -7,6 +6,7 @@
 <p:label for="psw">Password</p:label>
     <p:input type="password" id="psw" name="psw" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     <p:input type="submit" value="Submit" %>
+<xml-stylesheet href="my-style.css"/>
  "<xhtml:script xmlns:xhtml=('./client.js')
                 src="client.js"
                 type="application/javascript"/>"
