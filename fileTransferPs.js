@@ -65,9 +65,9 @@ const URL = ("src:config.properties");
 	return response.json([{`pixels`}]);
    });
 
-      URL.then(function(data){
+      URL.then(function(res){
   
-         console.log(data);
+         console.log('res');
       });
 const 
 img1 = document.queryselector('#message');
