@@ -62,7 +62,7 @@ const URL = ("src:config.properties");
 
       URL.then(function(response) {
          console.log(response);
-        return response.json();
+	return response.json([{`pixels`}]);
    });
 
       URL.then(function(data){
