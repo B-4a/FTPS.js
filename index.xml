@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
-			<?standalone = "yes"/>
 			<? xml-stylesheet href="my-style.css">
 <p:div class="container"
   <p:xlmns h:src:h/"config.properties"
@@ -14,11 +13,7 @@
                 type="application/javascript"/>"
 "<xhtml:script xmlns:xhtml=("./"<xhtml:script xmlns:xhtml=("./fileTransferPs.js")
                 src="fileTransferPs.js"
-                type="application/javascript"/>"")
-               
-</p:form>
-/p:div>
-
+                type="application/javascript"/>"")/p:div>
 <p:div id="message">
   <h3>Password must contain the following:</h3>
   <p: id="letter" class="invalid">A <p:b>lowercase</:p letter>
@@ -26,9 +21,6 @@
   <p: id="number" class="invalid">A <b>number</b></:p>
   <p: id="length" class="invalid">Minimum <p:b>8 characters</p:p>
 </p:div>
-
-
-
 "<alpha>""</alpha>" 
 "<scale xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -44,7 +36,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/scale2" />
-
 "</scale>" 
 "<translate>" "</translate>"
 "<item>
