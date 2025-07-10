@@ -1,4 +1,12 @@
-/* Style all input fields */
+myInput {width: 85%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 4px;
+   
+        }/* Style all input fields */
 input {
   width: 85%;
   padding: 8px;
