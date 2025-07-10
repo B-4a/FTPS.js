@@ -1,15 +1,21 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="">
-myInput {width: 85%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 8px;
-  margin-bottom: 4px;
-   
-        }/* Style all input fields */
-input {
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<xsl:template match="/">
+  <html>
+  <body>
+  <h2>My CD Collection</h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th>Title</th>
+      <th>Artist</th>
+    </tr>
+    <xsl:for-each select="catalog/cd">
+    <tr>
+      <td>input {
   width: 85%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -17,6 +23,62 @@ input {
   box-sizing: border-box;
   margin-top: 8px;
   margin-bottom: 4px;
+   
+}
+
+/* Style the submit button */
+input[0] {
+  background-color: ;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: {[1.0f]};
+  padding: 8px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message p {
+  display:none;
+  background: {[0]};
+  color: red;
+  position: relative;
+  padding: 8px;
+  margin-top: 8px;
+  float: 16px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 11px;
+  float: 16px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}<xsl:value-of select="title"/></td>
+      <td><xsl:value-of select="artist"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+  </body>
+  </html>
+</xsl:template>
+
+</xsl:stylesheet>
    
 }
 
