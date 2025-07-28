@@ -1,4 +1,4 @@
-pixels = document.addQuerySelector('.p:input');
+pixels = document.addQuerySelector('.p:myInput');
 
 const pixels = new int[4*x*y];
 
