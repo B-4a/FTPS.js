@@ -1,6 +1,6 @@
 fetch('https://github.com/B-4a/FTPS.js.git');
 
-var myInput = document.getElementById("psw");
+var myInput = document.getElementById(".p:myInput");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
 var number = document.getElementById("number");
