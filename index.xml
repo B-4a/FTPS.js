@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
 <p:div class="container"
   <p:xlmns h:src:h/"config.properties"
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html  lang="en">
   <head>
     <meta charset="utf-8">
 
     <title>Graphic Art.</title>
             
-    <link rel="stylesheet" type="text/css"
-   
-    href="" title="Default Styles" media="screen">
-     
-    <!-- <script src = "./js/js.js"> -->
-      <script src="./js/client.js" defer></script>
-   <asp:Image $Image ID="237" runat="server" ImageUrl="https://unsplash.com/photos/8wTPqxlnKM4"/> 
-  </script>
-  </head>
-
-<body>
-
-    <header>
-      
-      <h2>Graphic Art Gallery.</h2>
     
-      <p>Travel Photos</p>
-   
-    </header>
-       
-    <menu class="contact">
      
-        <li> 
         
-           <a href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/gmail.svg" width="30" alt="gmail icon"></a>
-           <a href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/facebook.png" width="30" alt="facebook icon"/></a>
-           <a href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/instagram.png" width="30" alt="insta icon"/></a>
-           <a href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/twitter.png" width="30" alt="twitter icon"/></a>
-        
-        </li>
     
     </menu>
  
@@ -65,11 +39,7 @@
   
         <a href="https://unsplash.com/photos/8wTPqxlnKM4"><img class="img1" ></a>
         <a href="https://picsum.photos/seed/picsum/200/300"><img class="img2" ></a>
-        <a href="https://picsum.photos/200/300?grayscale"><img class="img3"></a>
-        <!--<a href="./images/image5.jpg"><img class="img5" src="./images/image5.jpg"></a>
-        <a href="./images/image6.jpg"><img class="img6" src="./images/image6.jpg"></a>>
-       -->
-      </tr>
+        <a 
   
   </table> 
   
@@ -93,31 +63,22 @@
     
     
         </ul>
-    
-      </div>
-      
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
-
-
-   
-
     <data>
         &lt;<"html">&gt;
             &lt;<"head">&gt;
                 &lt;<"title">&gt;Embedded HTML&lt;<"/title">&gt;
             &lt;</head>&gt;
-            &lt;&gt;   <%- p:label for="usrname">Username</P:label>
+            &lt;&gt;  
+  
+  <%- p:label for="usrname">Username</P:label>
     <p:input type="text" id="usrname" name="usrname" required>
 <p:label for="psw">Password</p:label>
     <p:input type="password" id="psw" name="psw" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     <p:input type="submit" value="Submit" %>
        <p:input type="password" id="psw" name="psw" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     <p:myInput type="form" value="int" id:'myInput' required%>Input</body>&gt;
-        &lt; <"/body">output</html>&gt;
-    </data>
-<xml-stylesheet href="my-style.css"/>
+        &lt; </body>
+<xml-stylesheet href="my-style.xsl.FO"/>
      "<xhtml:script xmlns:xhtml=('./client.js')
                 src="client.js"
                 type="application/javascript"/>"
@@ -130,7 +91,8 @@
   <p: id="capital" class="invalid">A <b>capital (uppercase)</p:b> letter</p:p>
   <p: id="number" class="invalid">A <b>number</b></:p>
   <p: id="length" class="invalid">Minimum <p:b>8 characters</p:p>
-</p:div>
+
+
 "<alpha>""</alpha>" 
 "<scale xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
