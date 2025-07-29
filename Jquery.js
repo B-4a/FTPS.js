@@ -1,4 +1,4 @@
-fetch('https://github.com/B-4a/FTPS.js.git');
+
 (function($) {
 
 	/**
