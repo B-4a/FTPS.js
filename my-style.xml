@@ -16,8 +16,8 @@ xmlns:xsl="">
     <xsl:for-each select="catalog/cd">
     <tr>
       <td>
-        {style}
-        p: submit[0.2f]{
+        {$x 
+        : submit[0.2f]{
   width: 85%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -34,13 +34,13 @@ xmlns:xsl="">
 }
 
 /* Style the container for inputs */
-.p:myInput[0.2f] {
+#submit[0.2f] {
   background-color: {[1.0f]};
   padding: 8px;
 }
 
 /* The message box is shown when the user clicks on the password field */
-.container[2]{
+.container[2]{$x:action
   display:none;
   background: {[0]};
   color: red;
