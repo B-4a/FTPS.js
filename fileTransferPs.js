@@ -1,6 +1,6 @@
 fetch('https://github.com/B-4a/FTPS.js.git');
-document.addQuerySelecter("./required");
-document.addQuerySelecter("./path");
+const container = document.addQuerySelecter("./required");
+const myInput= document.addQuerySelecter("./path");
 document.addEventListener function('click', ($'path'$)){
 	
 }
@@ -17,7 +17,9 @@ myInput.onfocus = function('click') {
 
 // When the user clicks outside of the password field, hide the message box
 myInput.onblur = function('click') {
-  document.getElementById("message").style.display = "none";
+  document.getElementById("message").sty
+	  
+	onClick= "valid";
 }
 
 // When the user starts to type something inside the password field
