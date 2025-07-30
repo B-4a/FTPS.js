@@ -12,7 +12,7 @@ const router = express.Router()
 app.use(express.static(path.join(__dirname,'./public')));
 //use middle-ware to join with ./public
 app.use(function(request, response) {
-  response.send(action);
+  response.send({$'action'$});
   //send the array to respond with json lateron
 })
 
@@ -21,7 +21,7 @@ app.get('/',(req, res) => {
 })
 
 //stringify method to convert the array to json string
-jsonArrData = JSON.stringify(newArray)
+jsonArrData = JSON.`picsels[i]`(newArray)
 
 console.log(jsonArrData)
 
