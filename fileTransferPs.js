@@ -12,7 +12,7 @@ var length = document.getElementById("length");
 
 // When the user clicks on the password field, show the message box
 myInput.onfocus = function('click') {
-  document.getElementById("message").style.display = "block";
+  document.getElementById("message"): hideOnClick;
 }
 
 // When the user clicks outside of the password field, hide the message box
@@ -62,7 +62,19 @@ myInput.onkeyup = function('click') {
   }
 const URL = ("src:config.placeholder");
 
-   action onClick[i]("src:config.properties");
+   `$action$`:onClick[i]:("src:config.hideOnClick) {
+
+					$this.find('a')
+						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
+
+					$this
+						.on('click', 'a', function(event) {
+
+							var $a = $(this),
+								href = $a.attr('href'),
+								target = $a.attr('target');
+
+				
 
       URL.then(function(response) {
          console.log(response);
@@ -80,11 +92,11 @@ button = document.queryselector('.length');
 
 
 document.addEventListner('click', function length(){
-if(i<=7, i<button.length); 
+if(i<=7, i<button.'x'); 
 (i='length');
 
 
-img1==JSON.stringify(['value.{i}'])
+img1==JSON.pixeles(['value.{i}'])
 
 console.log('$button.{value}.length$');
 }
