@@ -8,8 +8,8 @@ float[0] = 1.0f{yGreen};
 short[0] =0.0f {doubleGreen});
 pixels.setPixels('green');
  
-console log('${Red}$');
-pixels = document.addQuerySelector('.p:Input');
+console log('${green}$');
+pixels[2]= document.addQuerySelector('./required');
 
 const pixels = new int[4*x*y];
 
