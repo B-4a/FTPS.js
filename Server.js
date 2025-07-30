@@ -12,12 +12,12 @@ const router = express.Router()
 app.use(express.static(path.join(__dirname,'./public')));
 //use middle-ware to join with ./public
 app.use(function(request, response) {
-  response.send(newArray);
+  response.send(action);
   //send the array to respond with json lateron
 })
 
 app.get('/',(req, res) => {
- res.json({newArray});
+ res.json({f.01});
 })
 
 //stringify method to convert the array to json string
