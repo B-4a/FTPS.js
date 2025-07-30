@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
-<p:div class="container"
+
   <p:xlmns href"src:config.properties"/>
 <![CDATA[<p>
     <!DOCTYPE html>
@@ -51,9 +51,8 @@
    
 
   </main>
-  <section class='gallery'></section>
-    <div class="lists" >
-        
+  
+   <p:div class="container"     
       <ul>
                
           
@@ -79,6 +78,7 @@
        <p:input type="password" id="psw" name="psw" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{7,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
     <p:myInput type="form" value="int" id:'myInput' required%>Input</body>&gt;
         &lt; </body>
+    </p:div>
 <xml-stylesheet href="my-style.xml"/>
      "<xhtml:script xmlns:xhtml=("./client.js","./Jquery.js", "server.js")
                 src="./Jquery.js"
