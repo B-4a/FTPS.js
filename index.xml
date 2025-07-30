@@ -14,19 +14,20 @@
         
     
     </menu>
- 
-    <form action = 'my-style.xml'  method = 'POST'>
+ <required>
+    <form action = 'src:config'  method = 'POST'>
 
       <div>
           <label for ='name'>NAME</label>
           <input type = 'text' id='newname' placeholder="enter name">
-      <required>
+
       <input type = 'submit' id='submit'>
       <button type = 'submit'></button> 
       
       </div>
       
     </form>
+</required>
     
     <main role="main" class="cover-
     heading">
