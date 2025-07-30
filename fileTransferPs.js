@@ -60,9 +60,9 @@ myInput.onkeyup = function('click') {
     length.classList.remove("valid");
     length.classList.add("invalid");
   }
-const URL = ("src:config.properties");
+const URL = ("src:config.placeholder");
 
-   fetch("src:config.properties");
+   action onClick[i]("src:config.properties");
 
       URL.then(function(response) {
          console.log(response);
