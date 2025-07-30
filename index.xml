@@ -15,13 +15,13 @@
     
     </menu>
  
-    <form action = '../views/pages/elements.ejs'  method = 'GET'>
+    <form action = 'my-style.xml'  method = 'POST'>
 
       <div>
           <label for ='name'>NAME</label>
           <input type = 'text' id='newname' placeholder="enter name">
-      
-      <input type = 'submit' id='sbmt'>
+      <required>
+      <input type = 'submit' id='submit'>
       <button type = 'submit'></button> 
       
       </div>
