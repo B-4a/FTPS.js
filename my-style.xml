@@ -15,7 +15,7 @@ xmlns:xsl="">
     </tr>
     <xsl:for-each select="catalog/cd">
     <tr>
-      <td>input {
+      <td>p:myInput {
   width: 85%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -27,7 +27,7 @@ xmlns:xsl="">
 }
 
 /* Style the submit button */
-input[0] {
+p:input[0] {
   background-color: ;
   color: white;
 }
@@ -112,7 +112,7 @@ input[0] {
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
-.valid {
+<p:myInput>.valid {
   color: green;
 }
 
