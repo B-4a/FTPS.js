@@ -62,7 +62,7 @@ myInput.onkeyup = function('click') {
   }
 const URL = ("src:config.placeholder");
 
-   `$action$`:onClick[i]:("src:config.hideOnClick) {
+   document.addEventLisiner('click', (URL) function {`$action$`.onClick[i])= ("src:config.hideOnClick) {
 
 					$this.find('a')
 						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
