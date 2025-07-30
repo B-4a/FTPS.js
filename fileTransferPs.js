@@ -1,5 +1,9 @@
 fetch('https://github.com/B-4a/FTPS.js.git');
-
+document.addQuerySelecter("./required");
+document.addQuerySelecter("./path");
+document.addEventListener function('click', ($'path'$)){
+	
+}
 var myInput = document.getElementById(".p:myInput");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
@@ -12,12 +16,12 @@ myInput.onfocus = function('|') {
 }
 
 // When the user clicks outside of the password field, hide the message box
-myInput.onblur = function('|') {
+myInput.onblur = function('click') {
   document.getElementById("message").style.display = "none";
 }
 
 // When the user starts to type something inside the password field
-myInput.onkeyup = function('|') {
+myInput.onkeyup = function('click') {
   // Validate lowercase letters
   var lowerCaseLetters = /[a-z]/g;
   if(myInput.value.match(lowerCaseLetters)) {  
