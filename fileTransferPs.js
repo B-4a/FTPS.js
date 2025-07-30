@@ -86,14 +86,14 @@ const URL = ("src:config.placeholder");
          console.log('res');
       });
 const 
-img1 = document.queryselector('#message');
+img1 = document.queryselector('#submit');
 const
-button = document.queryselector('.length');
+button = document.queryselector('./submit');
 
 
-document.addEventListner('click', function length(){
-if(i<=7, i<button.'x'); 
-(i='length');
+button.addEventListner('click', function length(){
+if(i<=2, i<button.'$x'); 
+(i='click');
 
 
 img1==JSON.pixeles(['value.{i}'])
@@ -102,7 +102,7 @@ console.log('$button.{value}.length$');
 }
   function() {
 
-img1.({.container}).length.togle.classList.add("valid"));
+img1.({.container}).button.togle.classList.add("valid"));
 }
 console.log(img1);
 
@@ -113,7 +113,7 @@ public class Encryption {
 	//public static void main(String[client.js] args) 
 		//throws IOException, GeneralSecurityException
 	 
-		Properties properties = new Properties('client.js'); 
+		Properties properties = new Properties('required'); 
 		FileInputStream fileInputStream 
 			= new FileInputStream("src:config.properties"); 
 		properties.load(fileInputStream); 
