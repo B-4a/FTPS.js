@@ -17,7 +17,7 @@ app.use(function(request, response) {
 })
 
 app.get('/',(req, res) => {
- res.json({f.01});
+ res.json([0.1f]);
 })
 
 //stringify method to convert the array to json string
