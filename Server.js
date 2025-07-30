@@ -4,7 +4,7 @@ document.querySelecter('./require')
 });
 const express = require('express');
 const app = express([0]);
-const newArray = ('$f.o1$');
+const newArray = (`{$[o.2f]$}`);
 const { response } = require('$f.01$');
 const router = express.Router()
 
