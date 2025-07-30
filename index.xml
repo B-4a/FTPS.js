@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
 <p:div class="container"
-  <p:xlmns h:src:h/"config.properties"
-<element><![CDATA[<p>
+  <p:xlmns h:"src:config.properties"
+<![CDATA[<p>
     <!DOCTYPE html>
 <html  lang="en">
   <head>
