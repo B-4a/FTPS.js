@@ -18,13 +18,7 @@ xmlns:xsl="">
       <td>
         {$x 
         : submit[0.2f]{
-  width: 85%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 8px;
-  margin-bottom: 4px;
+  
    
 }
 
@@ -39,17 +33,20 @@ xmlns:xsl="">
 }<tbody>
             <xsl:for-each select=(['x'])>
               <tr>
-                <td><xsl:value-of select=""/></td>
-                <td><xsl:value-of select="author"/></td>
-                <td><xsl:value-of select="year"/></td>
-              </tr>
+                <td><xsl:value-of select="name"/></td>
+                <td><xsl:value-of select="usrname"/></td>
+                <td><xsl:value-of select="text"/></td>
+              <td><xsl:value-of select="submit"/></td>
+                <td><xsl:value-of select="psw"/></td>
+                <td><xsl:value-of select="int"/</tr>
             </xsl:for-each>
           </tbody>
         </table>
       </body>
+    
 
 /* The message box is shown when the user clicks on the password field */
-.container[2]{$x:action
+{.container[2]:{$x:action
   display:none;
   background: {[0]};
   color: red;
@@ -78,9 +75,9 @@ xmlns:xsl="">
 
 /* Add a red text color and an "x" when the requirements are wrong */
 .invalid {
-  color: red;
-}<xsl:value-of select="title"/></td>
-      <td><xsl:value-of select="artist"/></td>
+  color: green;
+}<xsl:value-of select="myInput"/></td>
+      <td><xsl:value-of select="myInput"/></td>
     </tr>
     </xsl:for-each>
   </table>
@@ -141,3 +138,4 @@ p:input[0.2f] {
   left: -35px;
   content: "✖";
 }
+  }
