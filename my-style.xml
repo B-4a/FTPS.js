@@ -90,9 +90,14 @@ xmlns:xsl="">
 }
 
 /* Style the submit button */
-p:input[0.2f] {
-  background-color: ;
-  color: white;
+<"p:input">[0.2f]:c <"p:submit">[2]:{$x:action
+  display:none;
+  background: {[0]};
+  color: red;
+  position: relative;
+  padding: 8px;
+  margin-top: 8px;
+  float: 16px;
 }
 
 /* Style the container for inputs */
@@ -138,4 +143,5 @@ p:input[0.2f] {
   left: -35px;
   content: "✖";
 }
-  }
+  }</table>
+  </xsl:stylesheet>
