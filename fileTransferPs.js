@@ -17,9 +17,9 @@ myInput.onfocus = function('click') {
 
 // When the user clicks outside of the password field, hide the message box
 myInput.onblur = function('click') {
-  document.getElementById("message").sty
+  document.getElementById("p:input").c:new my {(my.onClick= c:$<"p:input">);
 	  
-	onClick= "valid";
+	
 }
 
 // When the user starts to type something inside the password field
