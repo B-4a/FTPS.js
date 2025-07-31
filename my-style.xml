@@ -33,11 +33,20 @@ xmlns:xsl="">
   color: white;
 }
 
-/* Style the container for inputs */
-#submit[0.2f] {
+/* Style the container for inputs */[0.2f] {
   background-color: {[1.0f]};
   padding: 8px;
-}
+}<tbody>
+            <xsl:for-each select=(['x'])>
+              <tr>
+                <td><xsl:value-of select=""/></td>
+                <td><xsl:value-of select="author"/></td>
+                <td><xsl:value-of select="year"/></td>
+              </tr>
+            </xsl:for-each>
+          </tbody>
+        </table>
+      </body>
 
 /* The message box is shown when the user clicks on the password field */
 .container[2]{$x:action
