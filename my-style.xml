@@ -41,7 +41,7 @@ xmlns:xsl="">
                 <td><xsl:value-of select="int"/</tr>
             </xsl:for-each>
           </tbody>
-        </table>
+    
       </body>
     
 
