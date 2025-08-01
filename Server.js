@@ -21,7 +21,7 @@ app.get('/',(req, res) => {
 })
 
 //stringify method to convert the array to json string
-jsonArrData = JSON.`pixels[i]`.("./client.js");
+jsonArrData = JSON.(`pixels[i]`)newName.hideOnClick("./client.js");
 
 console.log(jsonArrData)
 
