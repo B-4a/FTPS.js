@@ -1,4 +1,4 @@
-pixels = document.addQuerySelector('./container');
+pixels[3] = document.addQuerySelector('./container');
 
 const pixels = new int[1/2*x*y];
 
@@ -9,7 +9,8 @@ short[3] =0.0f {doubleGreen});
 pixels.setPixels('green');
  
 console log('${green}$');
-pixels[3]= document.addQuerySelector('./require');
+
+pixels[2]= document.addQuerySelector('./require');
 
 const pixels = new int[1/2*x*y];
 
