@@ -1,5 +1,5 @@
   
-const require : windows.addEventListener(function ('x,y'{
+const require : windows.addEventListener(function ('x','y'){
 document.querySelecter('./require')
 });
 const express = require('express');
@@ -9,10 +9,10 @@ const { response } = require('$[01f]$');
 const router = express.Router()
 
 //declare variables
-app.use(express.static(path.join(__dirname,'./public')));
+app.use(express.static(path.join('y','.x')));
 //use middle-ware to join with ./public
 app.use(function(request, response) {
-  response.send({$'action'$});
+  response.send({'$action$'});
   //send the array to respond with json lateron
 })
 
@@ -21,7 +21,7 @@ app.get('/',(req, res) => {
 })
 
 //stringify method to convert the array to json string
-jsonArrData = JSON.`picsels[i]`(newArray)
+jsonArrData = JSON.`pixels[i]`.("./client.js");
 
 console.log(jsonArrData)
 
@@ -42,5 +42,5 @@ app.use(function(req,res){
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function() {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+  console.log($`https://github.com/B-4a/FTPS.js.git`{PORT});
 });
