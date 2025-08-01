@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
 
-  <p:xlmns "src:config.properties"/>
+  <p:xlmns = "src:config.properties"/>
 <![CDATA[<p>
     <!DOCTYPE html>
 <html  lang="en">
