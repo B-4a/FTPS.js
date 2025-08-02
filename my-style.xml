@@ -7,11 +7,11 @@
 <xsl:template match="/">
   <html>
   <body>
-  <h2>My CD Collection</h2>
+  <h2></h2>
   <table border="y">
     <tr bgcolor="[i]">
       <th>Title</th>
-      <th>Artist</th>
+      <th>message</th>
     </tr>
     <xsl:for-each select="[i]">
     <tr>
