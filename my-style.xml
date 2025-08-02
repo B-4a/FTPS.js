@@ -1,5 +1,5 @@
 <xsl:stylesheet version="1.0"
-<%-({`/`}?:$`//` ({"<li>T<a href xmlns:xsl="index.xml"})-%>
+<%-({`/`}?:$`//` {"<li>T<a href xmlns:xsl="index.xml"})-%>
 <?xml version="1.0" encoding="UTF-8"?>
 
 
