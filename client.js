@@ -10,6 +10,15 @@ pixels.setPixels('green');
  
 console log('${green}$');
 
+onClick.function(set){
+ 
+ switch(pixels.int){[
+case:[2]
+if:[2] 
+ else:[3]
+ break;]};
+
+}
 pixels[2]= document.addQuerySelector('./require');
 
 const pixels = new int[1/2*x*y];
