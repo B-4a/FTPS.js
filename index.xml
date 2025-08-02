@@ -10,10 +10,6 @@
     <title>Graphic Art.</title>
             
     <element>
-     
-        
-    
-    </menu>
  <require>
     <form action = 'src:config'  method = 'POST'>
 
@@ -27,27 +23,19 @@
       </div>
       
     </form>
-</required>
-    
+</require>
+  </element>
     <main role="main" class="cover-
     heading">
      
-  
-
- <table id="href">
-  
+    <table id="href">
     <tr>
-  
         <a href="https://unsplash.com/photos/8wTPqxlnKM4"><img class="img1" ></a>
         <a href="https://picsum.photos/seed/picsum/200/300"><img class="img2" ></a>
-         
+    </tr>
+    </table> 
   
-  </table> 
-  
-     </tr>
-   
-   
-
+     </tr>  
   </main>
   
    <p:div class="container"     
@@ -63,7 +51,7 @@
         </ul>
     <data>
         &lt;<"html">&gt;
-            &lt;<"head">&gt;</p>]]>T</element>
+            &lt;<"head">&gt;</p>]]></element>
                 &lt;<"title">&gt;Embedded HTML&lt;<"/title">&gt;
             &lt;</head>&gt;
             &lt;&gt;  
