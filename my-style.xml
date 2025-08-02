@@ -141,5 +141,5 @@
   left: -35px;
   content: "✖";
 }
-  }</table>
+  </table>
   </xsl:stylesheet>
