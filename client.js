@@ -2,7 +2,7 @@ pixels[3] = document.addQuerySelector('./container');
 
 const pixels = new int[1/2*x*y];
 
-pixels[3] = xRed (Iterations ++ function (green){2.0f,1.0f,0.2f};
+pixels[3] = yGreen(Iterations ++ function (green){2.0f,1.0f,0.2f};
 
 float[3] = 1.0f{yGreen};
 short[3] =0.0f {doubleGreen});
