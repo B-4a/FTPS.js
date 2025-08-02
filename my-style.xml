@@ -142,4 +142,4 @@
   left: -35px;
   content: "✖";
 }
-  </xsl:stylesheet>
+  /xsl:stylesheet>
