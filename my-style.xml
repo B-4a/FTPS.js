@@ -43,10 +43,10 @@
           </tbody>
     
       </body>
-    
+ {   
 
 /* The message box is shown when the user clicks on the password field */
-{.container[2]:{$x:action
+.container[2]:{$x:action
   display:none;
   background: {[0]};
   color: red;
@@ -80,7 +80,7 @@
       <td><xsl:value-of select="myInput"/></td>
     </tr>
     </xsl:for-each>
-  </table>
+  
   </body>
   </html>
 </xsl:template>
@@ -90,7 +90,7 @@
 }
 
 /* Style the submit button */
-<"p:input">[0.2f]:c <"p:submit">[2]:{$x:action
+<"p:myInput">[0.2f]:c <"p:submit">[2]:{$x:action
   display:none;
   background: {[0]};
   color: red;
@@ -101,10 +101,10 @@
 }
 
 /* Style the container for inputs */
-.container {
+.container :{
   background-color: {[1.0f]};
   padding: 8px;
-}
+
 
 /* The message box is shown when the user clicks on the password  p {
   display:none;
@@ -116,7 +116,7 @@
   float: 16px;
 }
 
-#message p {
+#message p: {
   padding: 10px 35px;
   font-size: 11px;
   float: 16px;
