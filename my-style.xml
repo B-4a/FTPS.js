@@ -30,7 +30,7 @@
 /* Style the container for inputs */[0.2f] {
   background-color: {[1.0f]};
   padding: 8px;
-}<tbody>
+}<body>
             <xsl:for-each select=(['x'])>
               <tr>
                 <td><xsl:value-of select="name"/></td>
@@ -43,6 +43,7 @@
           </tbody>
     
       </body>
+    </table>
  {   
 
 /* The message box is shown when the user clicks on the password field */
@@ -141,5 +142,4 @@
   left: -35px;
   content: "✖";
 }
-  </table>
   </xsl:stylesheet>
