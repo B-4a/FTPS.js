@@ -114,7 +114,8 @@
   border-margin: 8px;
 
 
-/* The message box is shown when the user clicks on the password  p {
+/* The message box is shown when the user clicks on the password */ 
+  <p> : {
   display:none;
   background: {[0]};
   color: red;
