@@ -53,30 +53,35 @@
   color: red;
   position: relative;
   padding: 8px;
-  margin-top: 8px;
-  float: 16px;
+  border-margin: 8px;
+  float: 16px
+  
 }
 
 #message p {
   padding: 10px 35px;
   font-size: 11px;
   float: 16px;
+  border-margin: 8px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
 .valid {
   color: green;
+  border-margin: 8px;
 }
 
 .valid:before {
   position: relative;
   left: -35px;
   content: "✔";
+  border-margin: 8px;
 }
 
 /* Add a red text color and an "x" when the requirements are wrong */
 .invalid {
   color: green;
+  border-margin: 8px;
 }<xsl:value-of select="myInput"/></td>
       <td><xsl:value-of select="myInput"/></td>
     </tr>
@@ -98,13 +103,15 @@
   position: relative;
   padding: 8px;
   margin-top: 8px;
-  float: 16px;
+  float: 16px
+  border-margin: 8px;
 }
 
 /* Style the container for inputs */
 .container :{
   background-color: {[1.0f]};
   padding: 8px;
+  border-margin: 8px;
 
 
 /* The message box is shown when the user clicks on the password  p {
@@ -115,32 +122,38 @@
   padding: 8px;
   margin-top: 8px;
   float: 16px;
+  border-margin: 8px;
 }
 
 #message p: {
   padding: 10px 35px;
   font-size: 11px;
   float: 16px;
+  border-margin: 8px;
 
 
 /* Add a green text color and a checkmark when the requirements are right */
 <p:myInput>:valid 
   color: green;
+  border-margin: 8px;
 
 .valid:before 
   position: relative;
   left: -35px;
   content: "✔";
+  border-margin: 8px;
 
 /* Add a red text color and an "x" when the requirements are wrong */
 .invalid {
   color: red;
+  border-margin: 8px;
 
 
 .invalid:before {
   position: relative;
   left: -35px;
   content: "✖";
+  border-margin: 8px;
 }
   };
   <xsl:stylesheet>
