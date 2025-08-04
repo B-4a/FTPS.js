@@ -56,6 +56,7 @@
                 &lt;<"title">&gt;Embedded HTML&lt;<"/title">&gt;
             &lt;</head>&gt;
             &lt;&gt;  
+        <body>
   <p:div class="container">   
   <%- p:label for="usrname">Username</P:label>
     <p:myInput type="text" id="usrname" name="usrname" required>
