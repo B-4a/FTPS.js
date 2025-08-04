@@ -29,7 +29,7 @@ console.log(typeof jsonArrData === 'string')
 
 
    
-console.log(require);
+console.log(request);
 console.log(response);
 
 app.use(function(req,res){
