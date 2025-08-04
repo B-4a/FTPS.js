@@ -2,7 +2,7 @@
 
   <p:xlmns = "src:config.properties"/>
 <!
-    <"element">[CDATA[<p>
+    <"element">[C:${'x'}[<p>
     <!DOCTYPE html>
 <html  lang="en">
   <head>
