@@ -40,7 +40,6 @@
      </tr>  
   </main>
   
-   <p:div class="container">   
       <ul>
                
           
@@ -57,7 +56,7 @@
                 &lt;<"title">&gt;Embedded HTML&lt;<"/title">&gt;
             &lt;</head>&gt;
             &lt;&gt;  
-  
+  <p:div class="container">   
   <%- p:label for="usrname">Username</P:label>
     <p:myInput type="text" id="usrname" name="usrname" required>
 <p:label for="psw">Password</p:label>
@@ -76,6 +75,7 @@
     <p:myInput type="form" value="int" id:'myInput' required%>Input</body>&gt;
         &lt; 
     </"br">
+    </p:div>   
     </body>
     </p:div>
 <xml-stylesheet href="my-style.xml"/>
