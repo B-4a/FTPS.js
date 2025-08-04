@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>			
 
   <p:xlmns = "src:config.properties"/>
-<!
-    <"element">[C:${'x'}[<p>
+
+    <"element">
+      <![C:${'x'}[<p>
     <!DOCTYPE html>
 <html  lang="en">
   <head>
