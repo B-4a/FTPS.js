@@ -75,9 +75,10 @@
     <p:myInput type="form" value="int" id:'myInput' required%>Input</body>&gt;
         &lt; 
     </"br">
+   
     </p:div>   
-    </body>
-    </p:div>
+    
+                </body>
 <xml-stylesheet href="my-style.xml"/>
      "<xhtml:script xmlns:xhtml=("./client.js","./Jquery.js", "server.js")
                 src="./Jquery.js"
