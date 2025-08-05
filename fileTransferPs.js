@@ -94,11 +94,11 @@ button = document.queryselector('./submit');
 
 
 button.addEventListner('click', function length(){
-if(i<=2, i<button.'$x'); 
+(i<=2, i<button.'$x'); 
 (i=('click'.[img1]));
 
-then(
-img1==JSON.pixels(['value.{i}']));
+then
+img1==JSON.pixels(['value.{i}']);
 
 console.log('$button.{value}.length$');
 }
