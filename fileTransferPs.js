@@ -102,7 +102,7 @@ img1==JSON.pixels(['value.{i}']));
 
 console.log('$button.{value}.length$');
 }
-else
+
   document.addEventListener.container([''],'click'){
 	
 
