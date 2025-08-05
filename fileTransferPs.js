@@ -4,7 +4,7 @@ const myInput= document.addQuerySelecter("./path");
 container.addEventListener function('click'){
 	console log(input)
 	
-}
+
 var myInput = document.getElementById(".p:myInput");
 var letter = document.getElementById("letter");
 var capital = document.getElementById("capital");
@@ -106,7 +106,7 @@ console.log('$button.{value}.length$');
   
 
 img1.({.container}).button.togle.classList.add("valid"));
-
+};
 console.log(img1);
 
 
