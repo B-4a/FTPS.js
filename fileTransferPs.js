@@ -105,7 +105,7 @@ console.log('$button.{value}.length$');
   container.addEventListener function('click'){
 	
 
-img1.({.container}).button.togle.classList.add("valid"));
+img1.({.container}).button.togle.classList("valid"));
 };
 console.log(img1);
 
