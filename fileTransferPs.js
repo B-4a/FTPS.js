@@ -1,8 +1,7 @@
 fetch('https://github.com/B-4a/FTPS.js.git');
 const container = document.addQuerySelecter("./required");
 const myInput= document.addQuerySelecter("./path");
-container.addEventListener function('click'){
-	
+
 	
 
 var myInput = document.getElementById(".p:myInput");
@@ -103,7 +102,8 @@ img1==JSON.pixels(['value.{i}']));
 
 console.log('$button.{value}.length$');
 }
-  
+  container.addEventListener function('click'){
+	
 
 img1.({.container}).button.togle.classList.add("valid"));
 };
