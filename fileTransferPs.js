@@ -1,7 +1,7 @@
 fetch('https://github.com/B-4a/FTPS.js.git');
 const container = document.addQuerySelecter("./required");
 const myInput= document.addQuerySelecter("./path");
-document.addEventListener.container function('click'){
+container.addEventListener function('click'){
 	
 }
 var myInput = document.getElementById(".p:myInput");
