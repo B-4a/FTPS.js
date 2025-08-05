@@ -98,7 +98,7 @@ if(i<=2, i<button.'$x');
 (i=('click'.[img1]));
 
 
-img1==JSON.pixels(['value.{i}']);
+img1==JSON.pixels(['value.{i}']));
 
 console.log('$button.{value}.length$');
 }
