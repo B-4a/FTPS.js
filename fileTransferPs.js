@@ -102,10 +102,10 @@ img1==JSON.pixels(['value.{i}']);
 
 console.log('$button.{value}.length$');
 }
-  function() {
+  
 
 img1.({.container}).button.togle.classList.add("valid"));
-}
+
 console.log(img1);
 
 
