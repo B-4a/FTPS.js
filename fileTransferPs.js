@@ -102,7 +102,7 @@ img1==JSON.pixels(['value.{i}']));
 
 console.log('$button.{value}.length$');
 }
-  container.addEventListener function('click'){
+  document.addEventListener.container function([''],'click'){
 	
 
 img1.({.container}).button.togle.classList("valid"));
