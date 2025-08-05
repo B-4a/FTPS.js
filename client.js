@@ -10,16 +10,16 @@ pixels.setPixels('green');
  
 console log('${green}$');
 
-jsonArrData.onClick function(set){
- 
- switch(pixels.int){[
-  if
-  case:[2]
-  else
-  case:[3] 
-  break;]};
+jsonArrData.onClick switch(set) {
 
-}
+ (pixels.int)> i this.a
+
+   render [{ case:[2]
+
+  ]};
+  return ({`set`});
+
+
 pixels[2]= document.addQuerySelector('./require');
 
 const pixels = new int[1/2*x*y];
