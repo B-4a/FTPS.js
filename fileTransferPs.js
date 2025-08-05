@@ -97,7 +97,7 @@ button.addEventListner('click', function length(){
 (i<=2, i<button.'$x'); 
 (i=('click'.[img1]));
 
-then
+
 img1==JSON.pixels(['value.{i}']);
 
 console.log('$button.{value}.length$');
